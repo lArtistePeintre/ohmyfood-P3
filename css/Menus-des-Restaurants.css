@@ -1,0 +1,472 @@
+
+html, body {
+  font-family: 'Roboto', sans-serif;   
+  max-width: 767px;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*-------------------Loader-----------Inspire GraphikArt-Loader--------------------------------------------------------------------------------*/
+#text{
+    font-size: 15px;
+    position: absolute;
+    width:200px;
+    top:calc(50% + 60px);
+    left:calc(50% - 100px);
+     
+ }
+ 
+ .LoaderInitial{
+    
+    position:fixed;
+    left:0;
+    right:0;
+    bottom:0;
+    top:0;
+    background:rgba(255,255,255,0.9);
+    z-index:999999;
+    animation-name:initLoader;
+    animation-duration: 0.5s;
+    animation-timing-function: ease;
+    visibility:hidden;
+ }
+ 
+ .Loader{
+     
+     width: 90px;
+     height: 90px;
+     display: inline-block;
+     top:calc(50% - 45px);
+     left:calc(50% - 45px);
+     position: absolute;
+ }
+ 
+ .Loader-double{
+     border-radius: 50px ;
+     border: 15px solid transparent;
+     border-top-color: rgb(181, 117, 224);
+     border-bottom-color: rgb(181, 117, 224);
+     border-right-color: rgb(153, 226, 208);
+     border-left-color: rgb(153, 226, 208);
+     animation:root 2.5s linear 0s infinite;
+ }
+ .Loader-double:after{ 
+     align-items: center;
+     top: 8px; left: 8px;
+     bottom: 8px; right: 8px;
+     position: absolute;
+     content: '';
+     border-radius: 20px;
+     border: 10px solid transparent;
+     border-right-color: rgb(181, 117, 224);
+     border-left-color: rgb(153, 226, 208);
+     border-top-color: rgb(181, 117, 224);
+     border-bottom-color: rgb(153, 226, 208);
+     animation:root 0.5s linear 0s infinite;
+     opacity: 1.2;
+ }
+ @keyframes root{
+     0%{transform: rotate(0deg); } 
+     100%{transform: rotate(360deg); }
+ }
+ 
+ @keyframes initLoader{
+ 
+     from{
+ 
+         visibility:hidden;
+ 
+     }
+     to{
+ 
+         visibility:visible;
+ 
+     }
+ 
+ }
+ /*------------------------FIN-Loader-----------Inspire-------------GraphikArt-Loader--------------------------------------------------------------------------------*/
+.bannerIcone {
+   display: flex;
+   align-items: center;
+}
+.bannerIcone i{
+    color: black;
+   margin-left: 28px;
+   font-size: 15px;
+ }
+.bannerlogo img{
+    margin-top: 27px;
+    margin-left: 61px;
+    margin-bottom: 24px;
+    align-items: center;
+    justify-content: center;
+    width: 43%;
+}
+.imgresto{
+    margin-top: 0px;
+    width: 375px;
+    height: 185px;
+}
+.BlocMenus{
+    width: 375px;
+    position: relative;
+    z-index: 1;
+    margin-left: 0px;
+    background-color: rgb(244, 244, 244);
+    height: 1350px;
+    border-radius: 35px 35px 0 0;
+    margin-top: -56px;
+}
+.BlocMenus2{
+    width: 375px;
+    position: relative;
+    z-index: 1;
+    margin-left: 0px;
+    background-color: rgb(244, 244, 244);
+    height: 1450px;
+    border-radius: 35px 35px 0 0;
+    margin-top: -35px;
+}
+.BlocMenus3{
+    width: 375px;
+    position: relative;
+    z-index: 1;
+    margin-left: 0px;
+    background-color: rgb(244, 244, 244);
+    height: 1300px;
+    border-radius: 35px 35px 0 0;
+    margin-top: -33px;
+}
+
+.BlocMenus4{
+    width: 375px;
+    position: relative;
+    z-index: 1;
+    margin-left: 0px;
+    background-color: rgb(244, 244, 244);
+    height: 1300px;
+    border-radius: 35px 35px 0 0;
+    margin-top: -40px;
+}
+h1{
+    font-size: 29px;
+    margin-left: 23px ;
+    margin-bottom: 0px;
+}
+h1{
+    font-family: 'Shrikhand', cursive;
+    font-weight:bold;
+}
+.BlocTitre{
+   display: flex;
+   justify-content: space-between;
+}
+.IconeCoeur i{
+    margin-top: 18px;
+    margin-right: 35px;
+    font-size: 2rem; 
+}
+/*--------------------------------Bouton Coeur-----------------------------------*/
+/* heart checkboxes */
+
+.restaurantmenu__presentation__title__like,
+.restaurants__figcaption__like {
+  position: relative;
+  width: 2rem;
+  margin-top: -39px; 
+  margin-left: 327px;
+  margin-bottom: 71px; 
+  cursor: pointer;
+ 
+}
+
+.restaurants__figcaption__like__emptyheart {
+  width: 2rem;
+  position: absolute;
+}
+
+.restaurants__figcaption__like__fullheart {
+  width: 2rem;
+  position: absolute;
+  opacity: 0;
+}
+
+.restaurants__figcaption__like__fullheart:hover {
+  opacity: 1;
+  transition: 500ms ease-in-out;
+}
+
+
+/*----------------FIN-----------Bouton Coeur-------------------------------------*/
+
+/*------------------------------------*/
+.CompositionMenu{
+    margin-top: 39px;
+    font-size: 21px;
+    margin-left: 24px;
+}
+.CompositionMenu{
+    border-bottom:2px solid rgb(99, 236, 202);
+    width:45px;
+    height:30px;
+    
+}
+/*------------------------test MENU1----------------------------------------------------test MENU1---------------------------------------------*/
+*{
+  
+    box-sizing:border-box;
+  
+}
+
+/*-----------------------BOUTON  VERT + CHECK-----------------------------------------------------------------------------------------*/
+
+.Contenaire{
+    margin-top: 65px;
+    margin-left: 28px;
+    animation-name:slideIn;
+    animation-duration:1.5s;
+    animation-timing-function:ease;
+    animation-fill-mode: both;
+}
+
+.ContenantProduits{
+     width: 100%;
+     height:75px;
+     border:1px solid #616161;
+     background-color: rgb(255, 255, 255) ;
+     margin-top:-39px;
+     margin-bottom: 15px;
+     margin-left: -12px;
+     border-radius:15px;
+     padding:15px;
+     position:relative; 
+}
+
+.ContenantProduits .Nom-des-Ingrédians{ 
+     transition:width ease 0.5s;
+}
+
+.ContenantProduits div{
+      position:absolute;
+      right:0;
+      top:0;
+      bottom:0;
+      background:rgb(153, 226, 208);
+      width:0;
+      border-radius:0 15px 15px 0;
+      transition:width ease 0.5s;
+      text-align:center;
+      overflow:hidden;
+  
+}
+.Nom-des-Ingrédians{
+    margin-left: -6px;
+    font-size: 20px;
+    margin-top: -5px;
+    margin-bottom: 27px
+}
+
+.Icone i {
+
+    background-color: white;
+    text-align:center;
+    padding-top:7px;
+    color:rgb(153, 226, 208);
+    left:calc(50% - 15px);
+    top:calc(50% - 15px);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    transition:transform ease 0.5s;
+    position:absolute;
+
+}
+.détail{
+    margin-top: -16px;
+    margin-left: -3px;
+    font-size: 13px;
+}
+.Prix{
+    margin-top: -28px;
+    margin-left: -4px;
+}
+.ContenantProduits:hover div{
+    width:75px;
+}
+
+.ContenantProduits:hover div i{
+
+     transform:rotate(360deg);
+
+}
+
+.ContenantProduits:hover .Nom-des-Ingrédians{
+    width:calc(250px - 90px);
+    text-overflow:ellipsis;
+    overflow:hidden;
+    white-space:nowrap;
+  
+}
+.ContenantProduits:hover .détail{
+    width:calc(250px - 90px);
+    text-overflow:ellipsis;
+    overflow:hidden;
+    white-space:nowrap;
+  
+}
+
+.ContenantProduits .Prix{
+  width: 100%;
+  text-align:right;
+  transition:width ease 0.5s;
+}
+
+.ContenantProduits:hover .Prix{
+  
+   width:calc(250px - 50px); 
+  
+}
+
+
+/*--------------------FIN----BOUTON  VERT + CHECK----------------------------------------------------FIN--------test MENU1---------------------------------------------*/
+
+
+/*-----------------css animation generator----------------------------------*/
+
+.rotate-scale-up {
+	-webkit-animation: rotate-scale-up 0.65s linear both;
+	        animation: rotate-scale-up 0.65s linear both;
+}
+@-webkit-keyframes rotate-scale-up {
+    0% {
+      -webkit-transform: scale(1) rotateZ(0);
+              transform: scale(1) rotateZ(0);
+    }
+    50% {
+      -webkit-transform: scale(2) rotateZ(180deg);
+              transform: scale(2) rotateZ(180deg);
+    }
+    100% {
+      -webkit-transform: scale(1) rotateZ(360deg);
+              transform: scale(1) rotateZ(360deg);
+    }
+  }
+  @keyframes rotate-scale-up {
+    0% {
+      -webkit-transform: scale(1) rotateZ(0);
+              transform: scale(1) rotateZ(0);
+    }
+    50% {
+      -webkit-transform: scale(2) rotateZ(180deg);
+              transform: scale(2) rotateZ(180deg);
+    }
+    100% {
+      -webkit-transform: scale(1) rotateZ(360deg);
+              transform: scale(1) rotateZ(360deg);
+    }
+  }
+/*------------FIN----css animation generator---------------------------------------*/
+
+
+/*----------------------------------BlocCommander-----------------------------------------------------------------------------*/
+.TexteCommander{
+    margin-left: 56px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+.animation-button{
+
+    filter:brightness(90%);
+    transition:filter ease 0.5s;
+
+}
+.animation-button:hover{
+
+    filter:brightness(100%);
+
+}
+.BlocCommander{
+    height: 45px;
+    width: 215px;
+    background: linear-gradient(rgb(228, 132, 224), rgb(181, 117, 224));
+    margin-left: 79px;
+    margin-top: 37px;
+    margin-bottom: 30px;
+    padding-top: 10px;
+    border-radius: 25px 25px 25px 25px;
+    color: rgb(252, 252, 252) 
+}
+.animation-button{
+
+    filter:brightness(90%);
+    transition:filter ease 0.5s;
+
+}
+.animation-button:hover{
+
+    filter:brightness(100%);
+
+}
+/*-----------------Footer--------------------*/
+
+.BlocFooter{
+    max-width: 375px;
+}
+#imglogofooter img{
+    width: 35%;
+    margin-left: 60px;
+    margin-top: 25px;
+    color: white;
+}
+#imglogofooter{
+    background-color: rgb(53, 53, 53);
+}
+.BloctitrefooterGnle{
+    background-color: rgb(53, 53, 53);
+    height: 232px;
+}
+.Iconesfooter{
+    display: flex;
+    align-items: center;
+    margin-left: 0px;
+}
+.Iconesfooter i{
+    margin-left: 61px;
+    color: white;
+    
+}
+.titrefooter{
+    margin-left: 22px;
+    color: white;
+}
+.titrefooter2{
+    margin-left: 61px;
+    color: white;
+}
+.Contact a{
+    padding-top: 0px;
+    text-decoration: none;
+    color: white;
+}
+
+@keyframes slideIn{
+  
+    from{
+      
+         opacity:0;
+         transform:translate3d(0, 30px, 0);
+         
+    }
+    
+    to{
+      
+        opacity:1;
+        transform:translate3d(0,0,0);
+        
+      
+    }
+ 
+}
