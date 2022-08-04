@@ -9,9 +9,10 @@ html, body {
   padding: 0;
   box-sizing: border-box;
 }
-.bodyMobile{
-    min-height: 2114px;
-    flex-direction: column;
+#bloc-page{
+
+    max-width: 1400px;
+    margin:0 auto !important;
 }
 /*----------------Loader--------------------------------------*/
 /*--------------------------Références---GraphikArt-Loader--------------------------------------------------------------------------------*/

@@ -10,11 +10,7 @@
       box-sizing: border-box;
     }
     
-    #bloc-page{
-
-        max-width: 1400px;
-        margin:0 auto !important;
-    }
+   
     .bodyMobile{
         min-height: 1535px;
         flex-direction: column;

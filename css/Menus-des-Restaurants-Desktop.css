@@ -1,31 +1,31 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto-Regular.ttf, Roboto-Thin.ttf Shrikhand-Regular.ttf");
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Shrikhand&display=swap');
-@media screen and (min-width: 769px) and (max-width: 1400px){
-        html, body {
-        max-width:1400px;
-        height: 100%;
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        }
-        .bannerlogo img{
-                margin-left: 290px;
-                margin-top: 25px;
-                margin-bottom: 20px;
-                align-items: center;
-                justify-content: center;
-                width: 35%;
+@media screen and (min-width: 1025px){
+    html, body {
+    max-width:1400px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    .bannerlogo img{
+    margin-left: 290px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 35%;
     }
     .bannerIcone i{
-        color: black;
-       margin-left: 28px;
-       font-size: 30px;
+    color: black;
+    margin-left: 28px;
+    font-size: 30px;
      }
     .imgresto{
-        margin-left: 0px;
-        margin-top: 0px;
-        min-width: 1024px;
-        height: 505px;
+    margin-left: 0px;
+    margin-top: 0px;
+    min-width: 1024px;
+    height: 505px;
     }
     /*--------------------------------GraphikArt-Loader--------------------------------------------------------------------------------*/
 #text{
