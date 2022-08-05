@@ -3,49 +3,61 @@
 @media screen and (min-width: 1025px){
  
     html, body {
+      min-width: 1025;
       font-family: 'Roboto', sans-serif; 
       height: 100%;
-      margin: 0;
+      margin-left: 200px;
       padding: 0;
       box-sizing: border-box;
+      
     }
     
    
     .bodyMobile{
+        border: #6a1b9a 2px;
         min-height: 1535px;
         flex-direction: column;
     }
     /*------------Debut Pour Desktop-----------------------------------------Debut Pour Desktop--------------------------------*/
-nav{
+    .Logotitre{
+        margin-left: -100px;
+    }
+    
+    .BlocdesRestaurants{
+        margin-left: -123px;
+    }
+
+    nav{
     margin-top: 25px;
     align-items: center;
     display: flex;
     flex-direction: column;
 }
 .bannerlogo img{
-    margin-left: -397px;
+    margin-left: -600px;
     margin-bottom: 20px;
     align-items: center;
     justify-content: center;
-    width: 38%;
+    width: 40%;
 }
 .loc{
     border-top: none;
+    margin-left: -100px;
     background-color: rgb(234, 234, 234);
     height: 45px;
-    min-width: 1282px;
+    min-width: 1025px;
     display: flex;
     justify-content: center;   
     align-items: center;
 }
 .loc i{
     margin-right: -731px;
-    margin-left: 164px;
+    margin-left: -16px;
     margin-top: -141px;
 }
 #PB {
     margin-right: -836px;
-    margin-left: 760px;
+    margin-left: 1025px;
     margin-top: -81px;
     text-align: center;
 }
@@ -60,7 +72,9 @@ h1 {
 h1{
     font-family: "Shrikhand-Regular.ttf";
 }
-
+.BlocdesFontions{
+    margin-left: -350px;
+}
 /*------------------Loader------------GraphikArt-Loader--------------------------------------------------------------------------------*/
 
 .text{
@@ -179,7 +193,7 @@ button:hover svg path{
 
 #PB h4{
     margin-top: -33px;
-    margin-left: 0px;
+    margin-left: -428px;
     font-size: large;
 }
 p{
@@ -188,16 +202,17 @@ p{
     margin-bottom: 30px;
 }
 .bannerposition{
+    margin-left: -100px;
     flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
     background-color: rgb(246, 246, 246);
     height: 290px;
-    min-width: 1282px;
+    min-width: 1025px;
   
 }
 .titres{
-   
+   margin-left: -251px;
     margin-top: 50px;
     justify-content: center;
 }
@@ -210,7 +225,7 @@ p{
     height: 49px;
     width: 222px;
     background: linear-gradient(rgb(228, 132, 224), rgb(181, 117, 224));
-    margin-left: 650px;
+    margin-left: 394px;
     margin-top: 46px;
     padding-top: 14px;
     border-radius: 25px 25px 25px 25px;
@@ -338,10 +353,10 @@ h2{
     flex-wrap: wrap;
 }
 #BlocRestaurants{
-    margin-left: 0px;
+    margin-left: -61px;
     background-color: rgb(244, 244, 244);
     height: 635px;
-    min-width: 1024px;
+    min-width: 1025px;
     padding-top: 28px;
 }
 .BlocImgText{
@@ -427,7 +442,7 @@ mark{
     background-color: rgb(53, 53, 53);
     height: 280px;
     min-width: 1024px;
-    margin-left: 0px;
+    margin-left: -184px;
 }
 .BloctitrefooterGnle{
     display: flex;

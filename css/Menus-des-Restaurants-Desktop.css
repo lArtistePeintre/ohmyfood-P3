@@ -8,6 +8,9 @@
     padding: 0;
     box-sizing: border-box;
     }
+    .margebody{
+        margin-left: 260px;
+    }
     .bannerlogo img{
     margin-left: 290px;
     margin-top: 25px;
@@ -374,6 +377,7 @@
 
 .Blocfooter{
         min-width: 768px;
+        max-width: 1025px;
         max-height: 300px;
         background-color: rgb(53, 53, 53);
     }
