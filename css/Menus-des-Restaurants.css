@@ -8,85 +8,7 @@ html, body {
   padding: 0;
   box-sizing: border-box;
 }
-/*-------------------Loader-----------Inspire GraphikArt-Loader--------------------------------------------------------------------------------*/
-#text{
-    font-size: 15px;
-    position: absolute;
-    width:200px;
-    top:calc(50% + 60px);
-    left:calc(50% - 100px);
-     
- }
- 
- .LoaderInitial{
-    
-    position:fixed;
-    left:0;
-    right:0;
-    bottom:0;
-    top:0;
-    background:rgba(255,255,255,0.9);
-    z-index:999999;
-    animation-name:initLoader;
-    animation-duration: 0.5s;
-    animation-timing-function: ease;
-    visibility:hidden;
- }
- 
- .Loader{
-     
-     width: 90px;
-     height: 90px;
-     display: inline-block;
-     top:calc(50% - 45px);
-     left:calc(50% - 45px);
-     position: absolute;
- }
- 
- .Loader-double{
-     border-radius: 50px ;
-     border: 15px solid transparent;
-     border-top-color: rgb(181, 117, 224);
-     border-bottom-color: rgb(181, 117, 224);
-     border-right-color: rgb(153, 226, 208);
-     border-left-color: rgb(153, 226, 208);
-     animation:root 2.5s linear 0s infinite;
- }
- .Loader-double:after{ 
-     align-items: center;
-     top: 8px; left: 8px;
-     bottom: 8px; right: 8px;
-     position: absolute;
-     content: '';
-     border-radius: 20px;
-     border: 10px solid transparent;
-     border-right-color: rgb(181, 117, 224);
-     border-left-color: rgb(153, 226, 208);
-     border-top-color: rgb(181, 117, 224);
-     border-bottom-color: rgb(153, 226, 208);
-     animation:root 0.5s linear 0s infinite;
-     opacity: 1.2;
- }
- @keyframes root{
-     0%{transform: rotate(0deg); } 
-     100%{transform: rotate(360deg); }
- }
- 
- @keyframes initLoader{
- 
-     from{
- 
-         visibility:hidden;
- 
-     }
-     to{
- 
-         visibility:visible;
- 
-     }
- 
- }
- /*------------------------FIN-Loader-----------Inspire-------------GraphikArt-Loader--------------------------------------------------------------------------------*/
+
 .bannerIcone {
    display: flex;
    align-items: center;
@@ -234,7 +156,7 @@ h1{
 .ContenantProduits{
      width: 100%;
      height:75px;
-     border:1px solid #616161;
+     box-shadow: 3px 3px 3px 3px hsl(0, 4%, 89%);
      background-color: rgb(255, 255, 255) ;
      margin-top:-39px;
      margin-bottom: 15px;

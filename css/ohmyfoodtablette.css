@@ -276,10 +276,10 @@
     .Numbers p:hover{
         background-color: rgb(184, 98, 219);
     }
-    .bloctitres--IconeCoeur:hover{
+    bloctitres--IconeCoeur:hover{
         color: rgb(184, 98, 219);
     }
-    .IconeCoeur:hover{
+    IconeCoeur:hover{
         color: rgb(184, 98, 219);
     }
 
@@ -396,12 +396,69 @@
         margin-top: 103px;
         margin-left: 58px;
     }
+/*--------------------------------Bouton Coeur-----------------------------------*/
+/* heart checkboxes */
 
-    .bloctitres--IconeCoeur{
+
+.restaurants__figcaption__like1 {
+    position: relative;
+    width: 2rem;
+    margin-top: -69px; 
+    margin-left: 232px;
+    margin-bottom: 71px; 
+    cursor: pointer;
+   
+  }
+  .restaurants__figcaption__like2 {
+      position: relative;
+      width: 2rem;
+      margin-top: -67px; 
+      margin-left: 291px;
+      margin-bottom: 71px; 
+      cursor: pointer;
+     
+    }
+  .restaurants__figcaption__like3 {
+      position: relative;
+      width: 2rem;
+      margin-top: 6px; 
+      margin-right: 20px;
+      margin-bottom: 71px; 
+      cursor: pointer;
+     
+    }
+  .restaurants__figcaption__like4 {
+      position: relative;
+      width: 2rem;
+      margin-top: 6px; 
+      margin-right: 20px;
+      margin-bottom: 71px; 
+      cursor: pointer;
+     
+    }
+  .restaurants__figcaption__like__emptyheart {
+    width: 2rem;
+    position: absolute;
+  }
+  
+  .restaurants__figcaption__like__fullheart {
+    width: 2rem;
+    position: absolute;
+    opacity: 0;
+  }
+  
+  .restaurants__figcaption__like__fullheart:hover {
+    opacity: 1;
+    transition: 500ms ease-in-out;
+  }
+  
+  
+  /*----------------FIN-----------Bouton Coeur-------------------------------------*/
+    bloctitres--IconeCoeur{
         margin-left: 280px;
         margin-top: -67px;
     }
-    .bloctitres--IconeCoeur{
+    bloctitres--IconeCoeur{
         font-size: 25PX;
     }
 

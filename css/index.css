@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto-Regular.ttf, Roboto-Thin.ttf Shrikhand-Regular.ttf");
 auto-prefix.LoaderInitial
 html, body {
   font-family: 'Roboto', sans-serif; 
@@ -134,8 +135,8 @@ h1 {
    margin-right: 70px;
  
     }
-h1{
-    font-family: "Shrikhand-Regular.ttf";
+.titres h1{
+    font-family: "'Roboto', sans-serif";
 }
 
 /*------------test Stéphane----------------------------------------------------------------------*/
@@ -293,10 +294,10 @@ p{
 .Numbers p:hover{
     background-color: rgb(184, 98, 219);
 }
-.bloctitres--IconeCoeur:hover{
+bloctitres--IconeCoeur:hover{
     color: rgb(184, 98, 219);
 }
-.IconeCoeur:hover{
+IconeCoeur:hover{
     color: rgb(184, 98, 219);
 }
 
@@ -396,11 +397,11 @@ mark{
     margin-left: 58px;
 }
 
-.bloctitres--IconeCoeur{
+restaurants__figcaption__like{
     margin-left: 280px;
     margin-top: -67px;
 }
-.bloctitres--IconeCoeur{
+bloctitres--IconeCoeur{
     font-size: 25PX;
 }
 
@@ -418,6 +419,7 @@ mark{
     height: 140px;
 }
 .NomsRestos{
+    width: 170px;
     margin-top: 0px;
     margin-left: 0px;
 }
@@ -432,6 +434,66 @@ mark{
     margin-left: 59px;
     
 }
+/*--------------------------------Bouton Coeur-----------------------------------*/
+/* heart checkboxes */
+
+
+.restaurants__figcaption__like1 {
+  position: relative;
+  width: 2rem;
+  margin-top: -69px; 
+  margin-left: 232px;
+  margin-bottom: 71px; 
+  cursor: pointer;
+ 
+}
+.restaurants__figcaption__like2 {
+    position: relative;
+    width: 2rem;
+    margin-top: -63px; 
+    margin-left: 291px;
+    margin-bottom: 71px; 
+    cursor: pointer;
+   
+  }
+.restaurants__figcaption__like3 {
+    position: relative;
+    width: 2rem;
+    margin-top: 6px; 
+    margin-right: 20px;
+    margin-bottom: 71px; 
+    cursor: pointer;
+   
+  }
+.restaurants__figcaption__like4 {
+    position: relative;
+    width: 2rem;
+    margin-top: 6px; 
+    margin-right: 20px;
+    margin-bottom: 71px; 
+    cursor: pointer;
+   
+  }
+.restaurants__figcaption__like__emptyheart {
+  width: 2rem;
+  position: absolute;
+}
+
+.restaurants__figcaption__like__fullheart {
+  width: 2rem;
+  position: absolute;
+  opacity: 0;
+}
+
+.restaurants__figcaption__like__fullheart:hover {
+  opacity: 1;
+  transition: 500ms ease-in-out;
+}
+
+
+/*----------------FIN-----------Bouton Coeur-------------------------------------*/
+
+
 .IconeCoeur{
     margin-right: 34px;
     margin-top: 9px;

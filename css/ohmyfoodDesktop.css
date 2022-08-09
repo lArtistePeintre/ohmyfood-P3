@@ -6,7 +6,7 @@
       min-width: 1025;
       font-family: 'Roboto', sans-serif; 
       height: 100%;
-      margin-left: 200px;
+      margin-left: 90px;
       padding: 0;
       box-sizing: border-box;
       
@@ -70,7 +70,7 @@ h1 {
  
     }
 h1{
-    font-family: "Shrikhand-Regular.ttf";
+    font-family: "Roboto-Thin.ttf";
 }
 .BlocdesFontions{
     margin-left: -350px;
