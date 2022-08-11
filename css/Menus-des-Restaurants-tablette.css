@@ -136,7 +136,16 @@
         animation-timing-function:ease;
         animation-fill-mode: both;
     }
+    .CartesEntrées{
+        animation-delay: 500ms;
+    }
+    .CartesPlats{
+        animation-delay: 1200ms;
+    }
     
+    .CartesDesserts{
+        animation-delay: 1600ms;
+    }
    
     
     

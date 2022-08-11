@@ -248,19 +248,18 @@
         animation-timing-function:ease;
         animation-fill-mode: both;
     }
-    
-    ContenantProduits{
-         width: 100%;
-         height:75px;
-       
-         background-color: rgb(255, 255, 255) ;
-         margin-top:-39px;
-         margin-bottom: 15px;
-         margin-left: -12px;
-         border-radius:15px;
-         padding:15px;
-         position:relative; 
+    .CartesEntrées{
+        animation-delay: 500ms;
     }
+    .CartesPlats{
+        animation-delay: 1200ms;
+    }
+    
+    .CartesDesserts{
+        animation-delay: 1600ms;
+    }
+   
+ 
     
     
     .ContenantProduits .Nom-des-Ingrédians{ 
