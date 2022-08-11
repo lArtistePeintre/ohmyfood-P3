@@ -322,6 +322,9 @@ p{
     color: black;
     text-decoration: none;
 }
+.size{
+    box-shadow: 3px 3px 3px 3px hsl(0, 4%, 89%);
+}
 .size .IconesSVG{
     display: inline-block;
     margin-right: 16px;
