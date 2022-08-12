@@ -69,8 +69,8 @@ h1 {
    margin-right: 70px;
  
     }
-h1{
-    font-family: "Roboto-Thin.ttf";
+h1 strong{
+    margin-left: -250px;
 }
 .BlocdesFontions{
     margin-left: -350px;
