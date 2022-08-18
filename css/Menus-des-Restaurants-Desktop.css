@@ -2,14 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Shrikhand&display=swap');
 @media screen and (min-width: 1025px){
     html, body {
-    max-width:1400px;
     height: 100%;
-    margin: 0;
+    margin-left:50%;
+    transform:translate3d(-50%,0,0);
     padding: 0;
     box-sizing: border-box;
-    }
-    .margebody{
-        margin-left: 0px;
+    /* max-width:1400px; */
     }
     .bannerlogo img{
     margin-left: 290px;

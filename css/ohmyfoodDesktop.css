@@ -3,11 +3,11 @@
 @media screen and (min-width: 1025px){
  
     html, body {
-      min-width: 1025;
       font-family: 'Roboto', sans-serif; 
       height: 100%;
-      margin-left: 90px;
       padding: 0;
+      margin-left:50%;
+      transform:translate3d(-50%,0,0);
       box-sizing: border-box;
       
     }
