@@ -8,14 +8,15 @@ html, body {
   padding: 0;
   box-sizing: border-box;
 }
-#bloc-page{
 
+
+#bloc-page{
     max-width: 1400px;
     margin:0 auto !important;
 }
 /*----------------Loader--------------------------------------*/
 /*--------------------------Références---GraphikArt-Loader--------------------------------------------------------------------------------*/
-#text{
+.text{
    font-size: 15px;
    position: absolute;
    width:200px;
