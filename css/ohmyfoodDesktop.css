@@ -9,10 +9,93 @@
       margin-left:52.5%;
       transform:translate3d(-50%,0,0);
       box-sizing: border-box;
+      /*---------------Rajout---au 25/08---------------------*/
+      -webkit-transition-duration: 2s;
       
     }
-    
+    #text-1-{
+        font-size: 40px;
+        position: absolute;
+        padding-top: 500px;
+        width:200px;
+        top:calc(50%);
+        left:calc(50% - 100px);
+         
+     }
+     .LoaderInitial-1-{
    
+        position:fixed;
+        width: 1030px;
+        margin-left: -183px;
+        left:0;
+        right:0;
+        bottom:0;
+        top:0;
+        background:rgba(255,255,255,0.9);
+        z-index:999999;
+        animation-name:initLoader;
+        animation-duration: 1.5s;
+        animation-timing-function: ease;
+        visibility:hidden;
+     }
+     
+     .Loader-1-{
+         
+         width: 90px;
+         height: 90px;
+         display: inline-block;
+         top:calc(50% - 45px);
+         left:calc(50% - 45px);
+         position: absolute;
+     }
+     
+     .Loader-double-1-{
+         border-radius: 50px ;
+         border: 15px solid transparent;
+         border-top-color: rgb(181, 117, 224);
+         border-bottom-color: rgb(181, 117, 224);
+         border-right-color: rgb(153, 226, 208);
+         border-left-color: rgb(153, 226, 208);
+         animation:root 2.5s linear 0s infinite;
+     }
+     .Loader-double-1-:after{ 
+         align-items: center;
+         top: 8px; left: 8px;
+         bottom: 8px; right: 8px;
+         position: absolute;
+         content: '';
+         border-radius: 20px;
+         border: 10px solid transparent;
+         border-right-color: rgb(181, 117, 224);
+         border-left-color: rgb(153, 226, 208);
+         border-top-color: rgb(181, 117, 224);
+         border-bottom-color: rgb(153, 226, 208);
+         animation:root 0.5s linear 0s infinite;
+         opacity: 1.2;
+     }
+     @keyframes root{
+         0%{transform: rotate(0deg); } 
+         100%{transform: rotate(360deg); }
+     }
+     
+     @keyframes initLoader{
+     
+         from{
+     
+             visibility:hidden;
+     
+         }
+         to{
+     
+             visibility:visible;
+     
+         }
+     
+     }
+
+     /*------------FIN-------Rajout----au 25/08----------------------*/
+
+
     .bodyMobile{
         border: #6a1b9a 2px;
         min-height: 1535px;
