@@ -8,11 +8,11 @@
       padding: 0;
       margin:0 auto;
       box-sizing: border-box;
-      margin-left:90px;
+      
     }
     
     .Loader-1-{
-        margin-top: -350px;
+        margin-top: 0px;
         width: 90px;
         height: 90px;
         display: inline-block;
