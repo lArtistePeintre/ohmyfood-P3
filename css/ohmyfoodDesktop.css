@@ -8,9 +8,8 @@
       padding: 0;
       margin:0 auto;
       box-sizing: border-box;
-      margin-left: 90px;
+      margin:0 auto;
     }
-
     .Loader-1-{
         
         width: 90px;
@@ -31,11 +30,11 @@
      /*------------FIN-------Rajout----au 25/08----------------------*/
 
 
-    .bodyMobile{
+    /* .bodyMobile{
         border: #6a1b9a 2px;
         min-height: 1535px;
         flex-direction: column;
-    }
+    } */
     /*------------Debut Pour Desktop-----------------------------------------Debut Pour Desktop--------------------------------*/
     .Logotitre{
         margin-left: -100px;
