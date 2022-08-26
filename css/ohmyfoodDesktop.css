@@ -6,9 +6,8 @@
       font-family: 'Roboto', sans-serif; 
       height: 100%;
       padding: 0;
-     
       box-sizing: border-box;
-      margin:0 auto;
+      margin-left: 90px;
     }
     .Loader-1-{
         
@@ -23,7 +22,7 @@
         font-size: 15px;
         position: absolute;
         width:200px;
-        top:calc(39%);
+        top:calc(42%);
         left:calc(50% + 230px);
          
      }
