@@ -8,12 +8,6 @@ html, body {
   padding: 0;
   box-sizing: border-box;
 }
-
-
-#bloc-page{
-    max-width: 1400px;
-    margin:0 auto !important;
-}
 /*----------------Loader--------------------------------------*/
 /*--------------------------Références---GraphikArt-Loader--------------------------------------------------------------------------------*/
 .text{
